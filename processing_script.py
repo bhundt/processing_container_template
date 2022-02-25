@@ -22,7 +22,7 @@ def run():
             print(os.path.join(root, file))
 
     print('/feature-store')
-    for root, subdirectories, files in os.walk('/data'):
+    for root, subdirectories, files in os.walk('/feature-store'):
         for subdirectory in subdirectories:
             print(os.path.join(root, subdirectory))
         for file in files:
